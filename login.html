@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.jpg" width="125px">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="C:\Users\Srushti\Desktop\website\beauty.html">HOME</a></li>
+                    <li><a href="C:\Users\Srushti\Desktop\website\product.html">PRODUCTS</a></li>
+                    <li><a href="C:\Users\Srushti\Desktop\website\login.html">LOGIN</a></li>
+                    <li><a href="C:\Users\Srushti\Desktop\website\About.html">ABOUT US</a></li>
+                    <div class="dropdown">
+                        <button onclick="myFunction()"  class="dropbtn">BRANDS</button>
+                        <div id="myDropdown" class="dropdown-content">
+
+                          <a href="">Maybelline</a>
+                          <a href="">Elf</a>
+                          <a href="">Lakme</a>
+                        </div>
+                      </div>
+                        
+                        
+                      <script>
+                        /* When the user clicks on the button, 
+                        toggle between hiding and showing the dropdown content */
+                        function myFunction() {
+                          document.getElementById("myDropdown").classList.toggle("show");
+                        }
+                        
+                        // Close the dropdown if the user clicks outside of it
+                        window.onclick = function(event) {
+                          if (!event.target.matches('.dropbtn')) {
+                            var dropdowns = document.getElementsByClassName("dropdown-content");
+                            var i;
+                            for (i = 0; i < dropdowns.length; i++) {
+                              var openDropdown = dropdowns[i];
+                              if (openDropdown.classList.contains('show')) {
+                                openDropdown.classList.remove('show');
+                              }
+                            }
+                          }
+                        }
+                        </script>
+
+                     
+                </ul>
+            </nav>
+            <a href="C:\Users\Srushti\Desktop\website\cart.html">
+            <img src="images/shopping-bag.png" width="30px" height="30px">
+            </a>
+        </div>
+       
+    </div>
+</div>
+<!----account-page------>
+<div class="account-page">
+    <div class="container">
+        <div class="row">
+            
+           
+                <div class="form-container">
+                 <div class="form-btn">
+                    
+                 </div>
+                <form>
+                    <center> <img src="images/user-icon.jpg" height="100px" width="100px"></center>
+                    LOGIN ID:<input type="text" placeholder="LoginID"><br>
+                    PASSWORD:<input type="password" placeholder="Password">
+                    
+                    <a href="C:\Users\Srushti\Desktop\website\product.html" class="btn">LOG IN </a>
+                    
+                    <p>Already have an account? Sign In</p>
+                    <center>
+                        <img src="images/google.jpg" height="30px" width="30px">
+                        <img src="images/caller.png" height="35px" width="30px">
+                        <img src="images/facebook-logo-facebook-logo-9.png" height="30px" width="30px">
+                    </center>
+                </form>
+            </div>
+        </div>
+
+</div>
+
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download the App</h3>
+                <p>App avaliable on appstore <br>as well as play store</p>
+                <img src="images/play-store.png" height="75px" width="100px">
+                <img src="images/app-store.png" height="75px" width="100px">
+                
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo.jpg" height="50px" width="50px">
+                <p>Our purpose is to provide<br> you the Beauty Products.</p>
+
+                
+            </div>
+            <div class="footer-col-3">
+                <h3>useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us On</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+                
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

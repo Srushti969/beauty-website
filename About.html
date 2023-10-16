@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>about</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.jpg" width="125px">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="C:\Users\Srushti\Desktop\website\beauty.html">HOME</a></li>
+                    <li><a href="C:\Users\Srushti\Desktop\website\product.html">PRODUCTS</a></li>
+                    <li><a href="C:\Users\Srushti\Desktop\website\login.html">LOGIN</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <div class="dropdown">
+                        <button onclick="myFunction()"  class="dropbtn">BRANDS</button>
+                        <div id="myDropdown" class="dropdown-content">
+
+                          <a href="">Maybelline</a>
+                          <a href="">Elf</a>
+                          <a href="">Lakme</a>
+                        </div>
+                      </div>
+                        
+                        
+                      <script>
+                        /* When the user clicks on the button, 
+                        toggle between hiding and showing the dropdown content */
+                        function myFunction() {
+                          document.getElementById("myDropdown").classList.toggle("show");
+                        }
+                        
+                        // Close the dropdown if the user clicks outside of it
+                        window.onclick = function(event) {
+                          if (!event.target.matches('.dropbtn')) {
+                            var dropdowns = document.getElementsByClassName("dropdown-content");
+                            var i;
+                            for (i = 0; i < dropdowns.length; i++) {
+                              var openDropdown = dropdowns[i];
+                              if (openDropdown.classList.contains('show')) {
+                                openDropdown.classList.remove('show');
+                              }
+                            }
+                          }
+                        }
+                        </script>
+
+                     
+                </ul>
+            </nav>
+            <a href="C:\Users\Srushti\Desktop\website\cart.html">
+            <img src="images/shopping-bag.png" width="30px" height="30px">
+            </a>
+        </div>
+        <p>
+            Welcome to our Website we have a wide Range of cosmetics.<br>
+            We are here to make your life better with products that you can trust!<br>
+            Please do Buy our products and Share your Reviews!<br>
+            Brands that we have are !
+
+           </p>
+           <center>
+            <img src="images/Maybelline-Logo.jpeg" height="100px" width="200px">
+            <img src="images/Lakme-Logo-1996-2011.png" height="100px" width="200px">
+            <img src="images/Revlon_logo.png" height="100px" width="200px">
+            
+           </center>
+    </div>
+</div>
+
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download the App</h3>
+                <p>App avaliable on appstore <br>as well as play store</p>
+                <img src="images/play-store.png" height="75px" width="100px">
+                <img src="images/app-store.png" height="75px" width="100px">
+                
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo.jpg" height="50px" width="50px">
+                <p>Our purpose is to provide<br> you the Beauty Products.</p>
+
+                
+            </div>
+            <div class="footer-col-3">
+                <h3>useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us On</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+                
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
